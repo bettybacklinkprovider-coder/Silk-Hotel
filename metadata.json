@@ -1,0 +1,6 @@
+{
+  "name": "Silk Hotel",
+  "description": "Official website for Silk Hotel in Faisalabad, Pakistan. Experience luxury rooms, executive suites, 24/7 room service, and world-class hospitality on Susan Road, Madina Town.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
