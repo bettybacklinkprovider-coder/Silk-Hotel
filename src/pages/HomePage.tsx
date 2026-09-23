@@ -173,8 +173,8 @@ export const HomePage: React.FC<HomePageProps> = ({
             <div className="relative">
               <div className="relative rounded-2xl overflow-hidden shadow-2xl border border-slate-800">
                 <img
-                  src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1200&q=80"
-                  alt="Silk Hotel Welcome Lobby"
+                  src={HOTEL_INFO.mainImage}
+                  alt="Silk Hotel Main Exterior"
                   className="w-full h-[400px] sm:h-[480px] object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent to-transparent opacity-80" />
