@@ -250,6 +250,7 @@ export const SERVICES: HotelService[] = [
     iconName: 'Clock',
     hours: '24/7 Active Desk',
     badge: 'Always Available',
+    image: 'https://i.pinimg.com/736x/91/c8/52/91c852cbf74c09d3b73cfa073e8ad6ce.jpg',
     details: [
       'Instant check-in and luggage portage',
       'Local market & shopping area guides (Susan Road, D Ground)',
@@ -264,6 +265,7 @@ export const SERVICES: HotelService[] = [
     iconName: 'Coffee',
     hours: '07:00 AM - 11:30 PM',
     badge: 'Gourmet Dining',
+    image: 'https://i.pinimg.com/736x/64/f7/88/64f788237e0d80ab734de21aa7244872.jpg',
     details: [
       'Daily buffet & à la carte breakfast',
       'Traditional Lahori & Faisalabadi specialities',
@@ -408,7 +410,14 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     tags: ['Exterior', 'Night View', 'Lighting']
   },
 
-  // --- LOBBY & RECEPTION PHOTOS ---
+  {
+    id: 'g-reception-247-desk',
+    title: '24/7 Front Reception Support Desk',
+    category: 'Lobby',
+    image: 'https://i.pinimg.com/736x/91/c8/52/91c852cbf74c09d3b73cfa073e8ad6ce.jpg',
+    description: 'Always-on desk support for express check-in, city transportation, and guest assistance.',
+    tags: ['Lobby', 'Reception', 'Front Desk', '24/7 Support']
+  },
   {
     id: 'g-lobby-1',
     title: 'Grand Welcome Lobby & Reception',
@@ -515,7 +524,14 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     tags: ['Room Amenities', 'Tea Station']
   },
 
-  // --- DINING & RESTAURANT PHOTOS ---
+  {
+    id: 'g-dining-cafe-silk-lounge',
+    title: 'Silk Fine Dining & Cafe Lounge',
+    category: 'Dining',
+    image: 'https://i.pinimg.com/736x/64/f7/88/64f788237e0d80ab734de21aa7244872.jpg',
+    description: 'Enjoy hot breakfast, gourmet teas, and appetizing dinners in our elegant dining lounge.',
+    tags: ['Dining', 'Cafe', 'Restaurant', 'Gourmet', 'Tea']
+  },
   {
     id: 'g-dining-1',
     title: 'Silk Fine Dining Restaurant Area',

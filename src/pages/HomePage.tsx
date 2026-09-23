@@ -424,24 +424,44 @@ export const HomePage: React.FC<HomePageProps> = ({
               </p>
             </div>
 
-            <div className="p-6 bg-slate-950 rounded-2xl border border-slate-800 hover:border-amber-500/40 transition-colors space-y-3">
-              <div className="w-12 h-12 rounded-xl bg-amber-500/10 border border-amber-500/30 flex items-center justify-center text-amber-400">
-                <Clock className="w-6 h-6" />
+            <div className="bg-slate-950 rounded-2xl border border-slate-800 hover:border-amber-500/40 transition-all overflow-hidden group flex flex-col justify-between">
+              <div className="h-36 overflow-hidden relative border-b border-slate-800/80">
+                <img
+                  src="https://i.pinimg.com/736x/91/c8/52/91c852cbf74c09d3b73cfa073e8ad6ce.jpg"
+                  alt="24/7 Front Reception"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/40 to-transparent" />
+                <div className="absolute top-3 left-3 w-10 h-10 rounded-xl bg-slate-950/80 border border-amber-500/40 backdrop-blur-md flex items-center justify-center text-amber-400">
+                  <Clock className="w-5 h-5" />
+                </div>
               </div>
-              <h3 className="font-serif text-lg font-bold text-white">24/7 Front Reception</h3>
-              <p className="text-xs text-slate-400 leading-relaxed">
-                Always-on desk support for express check-in, city transportation, and guest assistance.
-              </p>
+              <div className="p-6 space-y-2">
+                <h3 className="font-serif text-lg font-bold text-white group-hover:text-amber-300 transition-colors">24/7 Front Reception</h3>
+                <p className="text-xs text-slate-400 leading-relaxed">
+                  Always-on desk support for express check-in, city transportation, and guest assistance.
+                </p>
+              </div>
             </div>
 
-            <div className="p-6 bg-slate-950 rounded-2xl border border-slate-800 hover:border-amber-500/40 transition-colors space-y-3">
-              <div className="w-12 h-12 rounded-xl bg-amber-500/10 border border-amber-500/30 flex items-center justify-center text-amber-400">
-                <Coffee className="w-6 h-6" />
+            <div className="bg-slate-950 rounded-2xl border border-slate-800 hover:border-amber-500/40 transition-all overflow-hidden group flex flex-col justify-between">
+              <div className="h-36 overflow-hidden relative border-b border-slate-800/80">
+                <img
+                  src="https://i.pinimg.com/736x/64/f7/88/64f788237e0d80ab734de21aa7244872.jpg"
+                  alt="Silk Fine Dining & Cafe"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/40 to-transparent" />
+                <div className="absolute top-3 left-3 w-10 h-10 rounded-xl bg-slate-950/80 border border-amber-500/40 backdrop-blur-md flex items-center justify-center text-amber-400">
+                  <Coffee className="w-5 h-5" />
+                </div>
               </div>
-              <h3 className="font-serif text-lg font-bold text-white">Silk Fine Dining & Cafe</h3>
-              <p className="text-xs text-slate-400 leading-relaxed">
-                Enjoy hot breakfast, gourmet teas, and appetizing dinners in our elegant dining lounge.
-              </p>
+              <div className="p-6 space-y-2">
+                <h3 className="font-serif text-lg font-bold text-white group-hover:text-amber-300 transition-colors">Silk Fine Dining & Cafe</h3>
+                <p className="text-xs text-slate-400 leading-relaxed">
+                  Enjoy hot breakfast, gourmet teas, and appetizing dinners in our elegant dining lounge.
+                </p>
+              </div>
             </div>
           </div>
 
