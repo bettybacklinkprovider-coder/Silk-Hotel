@@ -427,7 +427,7 @@ export const HomePage: React.FC<HomePageProps> = ({
             <div className="bg-slate-950 rounded-2xl border border-slate-800 hover:border-amber-500/40 transition-all overflow-hidden group flex flex-col justify-between">
               <div className="h-36 overflow-hidden relative border-b border-slate-800/80">
                 <img
-                  src="https://i.pinimg.com/736x/91/c8/52/91c852cbf74c09d3b73cfa073e8ad6ce.jpg"
+                  src="https://i.pinimg.com/1200x/1a/b8/9a/1ab89abd1d320459e69d56d68e1b0958.jpg"
                   alt="24/7 Front Reception"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />
@@ -447,7 +447,7 @@ export const HomePage: React.FC<HomePageProps> = ({
             <div className="bg-slate-950 rounded-2xl border border-slate-800 hover:border-amber-500/40 transition-all overflow-hidden group flex flex-col justify-between">
               <div className="h-36 overflow-hidden relative border-b border-slate-800/80">
                 <img
-                  src="https://i.pinimg.com/736x/64/f7/88/64f788237e0d80ab734de21aa7244872.jpg"
+                  src="https://i.pinimg.com/736x/10/51/b6/1051b6a145622940dd3a8847c9af66ca.jpg"
                   alt="Silk Fine Dining & Cafe"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />
