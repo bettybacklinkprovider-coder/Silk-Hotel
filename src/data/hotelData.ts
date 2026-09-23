@@ -236,7 +236,7 @@ export const SERVICES: HotelService[] = [
     iconName: 'Car',
     hours: '24/7 Security Patrol',
     badge: 'Complimentary',
-    image: 'https://i.pinimg.com/736x/f7/19/fe/f719feeec8cda7f7e975665704a993fa.jpg',
+    image: 'https://i.pinimg.com/1200x/55/85/6c/55856c201aca8756da0c28fcb2b04dac.jpg',
     details: [
       'CCTV monitored safe parking zone',
       'Friendly valet service on arrival',
@@ -627,7 +627,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     id: 'g-amenities-parking',
     title: 'Guarded Valet Parking Entrance',
     category: 'Amenities',
-    image: 'https://i.pinimg.com/736x/f7/19/fe/f719feeec8cda7f7e975665704a993fa.jpg',
+    image: 'https://i.pinimg.com/1200x/55/85/6c/55856c201aca8756da0c28fcb2b04dac.jpg',
     description: '24/7 CCTV monitored safe parking space on Susan Road, Madina Town.',
     tags: ['Amenities', 'Parking', 'Valet']
   }

@@ -417,7 +417,7 @@ export const HomePage: React.FC<HomePageProps> = ({
             <div className="bg-slate-950 rounded-2xl border border-slate-800 hover:border-amber-500/40 transition-all overflow-hidden group flex flex-col justify-between">
               <div className="h-36 overflow-hidden relative border-b border-slate-800/80">
                 <img
-                  src="https://i.pinimg.com/736x/f7/19/fe/f719feeec8cda7f7e975665704a993fa.jpg"
+                  src="https://i.pinimg.com/1200x/55/85/6c/55856c201aca8756da0c28fcb2b04dac.jpg"
                   alt="Secure Valet Parking"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />
