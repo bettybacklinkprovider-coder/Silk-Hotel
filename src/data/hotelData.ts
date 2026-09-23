@@ -12,6 +12,7 @@ export const HOTEL_INFO = {
   mainImage: 'https://res.cloudinary.com/k7og2ybq/image/upload/v1790156561/unnamed_1.jpg',
   heroImages: [
     'https://res.cloudinary.com/k7og2ybq/image/upload/v1790156561/unnamed_1.jpg',
+    'https://res.cloudinary.com/k7og2ybq/image/upload/v1790157360/unnamed_2.jpg',
     'https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80',
     'https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1200&q=80',
     'https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=1200&q=80'
@@ -299,6 +300,14 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     image: 'https://res.cloudinary.com/k7og2ybq/image/upload/v1790156561/unnamed_1.jpg',
     description: 'Silk Hotel main exterior elevation on Susan Road, Madina Town, Faisalabad.',
     tags: ['Exterior', 'Main Entrance', 'Susan Road', 'Facade']
+  },
+  {
+    id: 'g-ext-view-2',
+    title: 'Silk Hotel Building View',
+    category: 'Exterior',
+    image: 'https://res.cloudinary.com/k7og2ybq/image/upload/v1790157360/unnamed_2.jpg',
+    description: 'Exterior property view of Silk Hotel situated on Susan Road, Madina Town.',
+    tags: ['Exterior', 'Silk Hotel', 'Susan Road', 'Facade', 'Building']
   },
   {
     id: 'g-ext-1',
