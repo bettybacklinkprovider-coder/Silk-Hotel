@@ -103,9 +103,9 @@ export const ROOMS: Room[] = [
     capacity: '4 Guests',
     bedType: '1 Emperor Bed + Sofa Bed',
     sizeSqFt: 850,
-    image: 'https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80',
+    image: 'https://i.pinimg.com/1200x/55/53/99/55539940cc078aab1697eff20688bd30.jpg',
     gallery: [
-      'https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80',
+      'https://i.pinimg.com/1200x/55/53/99/55539940cc078aab1697eff20688bd30.jpg',
       'https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=1200&q=80',
       'https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80',
       'https://images.unsplash.com/photo-1584132967334-10e028bd69f7?auto=format&fit=crop&w=1200&q=80',
@@ -493,7 +493,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     id: 'g-room-royal-1',
     title: 'Royal Silk Presidential Suite Master Suite',
     category: 'Rooms',
-    image: 'https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80',
+    image: 'https://i.pinimg.com/1200x/55/53/99/55539940cc078aab1697eff20688bd30.jpg',
     description: 'The Royal Silk Suite master bedroom featuring custom woodwork and emperor bed.',
     roomId: 'silk-royal-presidential',
     tags: ['Royal Suite', 'Emperor Bed', 'Presidential']
