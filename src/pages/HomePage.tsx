@@ -414,14 +414,24 @@ export const HomePage: React.FC<HomePageProps> = ({
               </div>
             </div>
 
-            <div className="p-6 bg-slate-950 rounded-2xl border border-slate-800 hover:border-amber-500/40 transition-colors space-y-3">
-              <div className="w-12 h-12 rounded-xl bg-amber-500/10 border border-amber-500/30 flex items-center justify-center text-amber-400">
-                <Car className="w-6 h-6" />
+            <div className="bg-slate-950 rounded-2xl border border-slate-800 hover:border-amber-500/40 transition-all overflow-hidden group flex flex-col justify-between">
+              <div className="h-36 overflow-hidden relative border-b border-slate-800/80">
+                <img
+                  src="https://i.pinimg.com/736x/f7/19/fe/f719feeec8cda7f7e975665704a993fa.jpg"
+                  alt="Secure Valet Parking"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/40 to-transparent" />
+                <div className="absolute top-3 left-3 w-10 h-10 rounded-xl bg-slate-950/80 border border-amber-500/40 backdrop-blur-md flex items-center justify-center text-amber-400">
+                  <Car className="w-5 h-5" />
+                </div>
               </div>
-              <h3 className="font-serif text-lg font-bold text-white">Secure Valet Parking</h3>
-              <p className="text-xs text-slate-400 leading-relaxed">
-                CCTV-monitored safe on-site parking with helpful valet drivers available round the clock.
-              </p>
+              <div className="p-6 space-y-2">
+                <h3 className="font-serif text-lg font-bold text-white group-hover:text-amber-300 transition-colors">Secure Valet Parking</h3>
+                <p className="text-xs text-slate-400 leading-relaxed">
+                  CCTV-monitored safe on-site parking with helpful valet drivers available round the clock.
+                </p>
+              </div>
             </div>
 
             <div className="bg-slate-950 rounded-2xl border border-slate-800 hover:border-amber-500/40 transition-all overflow-hidden group flex flex-col justify-between">
