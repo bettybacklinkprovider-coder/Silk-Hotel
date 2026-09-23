@@ -9,16 +9,12 @@ export const HOTEL_INFO = {
   address: 'C498+F55, Susan Road, Madina Town, Faisalabad, 38000, Pakistan',
   city: 'Faisalabad',
   area: 'Madina Town, Susan Road',
-  mainImage: 'https://res.cloudinary.com/k7og2ybq/image/upload/v1790091803/unnamed_1.jpg',
+  mainImage: 'https://res.cloudinary.com/k7og2ybq/image/upload/v1790156561/unnamed_1.jpg',
   heroImages: [
-    'https://res.cloudinary.com/k7og2ybq/image/upload/v1790091803/unnamed_1.jpg',
-    'https://res.cloudinary.com/k7og2ybq/image/upload/v1790091624/unnamed.jpg',
-    'https://res.cloudinary.com/k7og2ybq/image/upload/v1790091263/unnamed_1.jpg',
-    'https://res.cloudinary.com/k7og2ybq/image/upload/v1790091147/unnamed.jpg',
-    'https://res.cloudinary.com/k7og2ybq/image/upload/v1790091018/unnamed.jpg',
-    'https://res.cloudinary.com/k7og2ybq/image/upload/v1790090832/unnamed.jpg',
-    'https://res.cloudinary.com/k7og2ybq/image/upload/v1790090610/unnamed.jpg',
-    'https://res.cloudinary.com/k7og2ybq/image/upload/v1790090234/unnamed.jpg'
+    'https://res.cloudinary.com/k7og2ybq/image/upload/v1790156561/unnamed_1.jpg',
+    'https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80',
+    'https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1200&q=80',
+    'https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=1200&q=80'
   ],
   whatsappUrl: 'https://wa.me/923067222232?text=Hello%20Silk%20Hotel,%20I%20would%20like%20to%20inquire%20about%20room%20reservation%20and%20rates.',
   googleMapsEmbed: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.998471188339!2d73.10984831510255!3d31.41416498140411!2m3!1f0!0f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x392242a42dd6a6a1%3A0x6b10214a1a6b0c20!2sSusan%20Rd%2C%20Madina%20Town%2C%20Faisalabad%2C%20Punjab!5e0!3m2!1sen!2spk!4v1700000000000!5m2!1sen!2spk',
@@ -41,7 +37,9 @@ export const ROOMS: Room[] = [
     gallery: [
       'https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1200&q=80',
       'https://images.unsplash.com/photo-1584132967334-10e028bd69f7?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1200&q=80'
+      'https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1616046229478-9901c5536a45?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1566665797739-1674de7a421a?auto=format&fit=crop&w=1200&q=80'
     ],
     description: 'Designed for both business travelers and couples, the Deluxe King Room offers a sanctuary of peace featuring premium silk linens, custom hardwood furniture, smart climate control, and a sleek marble en-suite bathroom.',
     amenities: [
@@ -70,7 +68,9 @@ export const ROOMS: Room[] = [
     gallery: [
       'https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=1200&q=80',
       'https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80'
+      'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1631049307264-da0ec9d70304?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&w=1200&q=80'
     ],
     description: 'Experience refined luxury in our Executive Suite. Featuring a separate seating lounge, dedicated work area with high-speed desk connectivity, complimentary executive breakfast, and panoramic views of Madina Town.',
     amenities: [
@@ -99,7 +99,9 @@ export const ROOMS: Room[] = [
     gallery: [
       'https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80',
       'https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80'
+      'https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1584132967334-10e028bd69f7?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1200&q=80'
     ],
     description: 'Our crown jewel residence for distinguished guests, VIP diplomats, and grand celebrations. The Royal Silk Suite includes a spacious master suite, dining table for 4, luxurious bath setup, and dedicated concierge assistance.',
     amenities: [
@@ -127,7 +129,9 @@ export const ROOMS: Room[] = [
     image: 'https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&w=1200&q=80',
     gallery: [
       'https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1200&q=80'
+      'https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1616046229478-9901c5536a45?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1200&q=80'
     ],
     description: 'Functional elegance crafted with two orthopedic twin beds, individually controlled reading lights, quiet air conditioning, and full room service menu.',
     amenities: [
@@ -153,7 +157,9 @@ export const ROOMS: Room[] = [
     image: 'https://images.unsplash.com/photo-1591088398332-8a7791972843?auto=format&fit=crop&w=1200&q=80',
     gallery: [
       'https://images.unsplash.com/photo-1591088398332-8a7791972843?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1584132967334-10e028bd69f7?auto=format&fit=crop&w=1200&q=80'
+      'https://images.unsplash.com/photo-1584132967334-10e028bd69f7?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80'
     ],
     description: 'Designed specifically for family visits to Faisalabad. Offers spacious accommodations, two separate bedrooms, two private bathrooms, and cozy seating area.',
     amenities: [
@@ -285,110 +291,229 @@ export const SERVICES: HotelService[] = [
 ];
 
 export const GALLERY_ITEMS: GalleryItem[] = [
+  // --- EXTERIOR PHOTOS ---
   {
-    id: 'g-ext-featured-latest',
-    title: 'Silk Hotel Main Premier Entrance',
-    category: 'Exterior',
-    image: 'https://res.cloudinary.com/k7og2ybq/image/upload/v1790091803/unnamed_1.jpg',
-    description: 'Main premier front entrance view of Silk Hotel on Susan Road, Madina Town, Faisalabad.'
-  },
-  {
-    id: 'g-ext-featured-main',
-    title: 'Silk Hotel Premier Exterior Facade',
-    category: 'Exterior',
-    image: 'https://res.cloudinary.com/k7og2ybq/image/upload/v1790091624/unnamed.jpg',
-    description: 'Premier exterior facade view of Silk Hotel on Susan Road, Madina Town, Faisalabad.'
-  },
-  {
-    id: 'g-ext-prime',
-    title: 'Silk Hotel Main Building Exterior',
-    category: 'Exterior',
-    image: 'https://res.cloudinary.com/k7og2ybq/image/upload/v1790091263/unnamed_1.jpg',
-    description: 'Premier exterior facade view of Silk Hotel on Susan Road, Madina Town, Faisalabad.'
-  },
-  {
-    id: 'g-ext-latest',
-    title: 'Silk Hotel Main Entrance & Frontage',
-    category: 'Exterior',
-    image: 'https://res.cloudinary.com/k7og2ybq/image/upload/v1790091147/unnamed.jpg',
-    description: 'Silk Hotel premier front view on Susan Road, Madina Town, Faisalabad.'
-  },
-  {
-    id: 'g-ext-new',
+    id: 'g-ext-main',
     title: 'Silk Hotel Main Elevation',
     category: 'Exterior',
-    image: 'https://res.cloudinary.com/k7og2ybq/image/upload/v1790091018/unnamed.jpg',
-    description: 'Silk Hotel front exterior elevation on Susan Road, Madina Town.'
-  },
-  {
-    id: 'g-ext-0',
-    title: 'Silk Hotel Main Building View',
-    category: 'Exterior',
-    image: 'https://res.cloudinary.com/k7og2ybq/image/upload/v1790090832/unnamed.jpg',
-    description: 'Silk Hotel exterior building view on Susan Road, Madina Town.'
+    image: 'https://res.cloudinary.com/k7og2ybq/image/upload/v1790156561/unnamed_1.jpg',
+    description: 'Silk Hotel main exterior elevation on Susan Road, Madina Town, Faisalabad.',
+    tags: ['Exterior', 'Main Entrance', 'Susan Road', 'Facade']
   },
   {
     id: 'g-ext-1',
-    title: 'Silk Hotel Main Facade',
+    title: 'Silk Hotel Main Premier Entrance',
     category: 'Exterior',
-    image: 'https://res.cloudinary.com/k7og2ybq/image/upload/v1790090610/unnamed.jpg',
-    description: 'Modern architectural facade located on Susan Road, Madina Town.'
+    image: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80',
+    description: 'Main premier front entrance view of Silk Hotel on Susan Road, Madina Town, Faisalabad.',
+    tags: ['Exterior', 'Entrance', 'Susan Road', 'Facade']
   },
   {
     id: 'g-ext-2',
-    title: 'Silk Hotel Entrance & Building',
+    title: 'Silk Hotel Premier Exterior Facade',
     category: 'Exterior',
-    image: 'https://res.cloudinary.com/k7og2ybq/image/upload/v1790090234/unnamed.jpg',
-    description: 'Front view of Silk Hotel welcoming guests in Faisalabad.'
+    image: 'https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?auto=format&fit=crop&w=1200&q=80',
+    description: 'Premier exterior facade view of Silk Hotel on Susan Road, Madina Town, Faisalabad.',
+    tags: ['Exterior', 'Facade', 'Building']
   },
+  {
+    id: 'g-ext-3',
+    title: 'Silk Hotel Main Building Exterior',
+    category: 'Exterior',
+    image: 'https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=1200&q=80',
+    description: 'Premier exterior building view of Silk Hotel on Susan Road.',
+    tags: ['Exterior', 'Building', 'Madina Town']
+  },
+  {
+    id: 'g-ext-night',
+    title: 'Silk Hotel Illuminated Night Facade',
+    category: 'Exterior',
+    image: 'https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1200&q=80',
+    description: 'Warm night lights glowing across the Silk Hotel property facade.',
+    tags: ['Exterior', 'Night View', 'Lighting']
+  },
+
+  // --- LOBBY & RECEPTION PHOTOS ---
   {
     id: 'g-lobby-1',
-    title: 'Grand Welcome Lobby',
+    title: 'Grand Welcome Lobby & Reception',
     category: 'Lobby',
     image: 'https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1200&q=80',
-    description: 'Spacious marble lobby with plush seating for arriving guests.'
-  },
-  {
-    id: 'g-room-1',
-    title: 'Executive Silk Suite',
-    category: 'Rooms',
-    image: 'https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=1200&q=80',
-    description: 'Master bedroom with premium linens and ambient lighting.'
-  },
-  {
-    id: 'g-room-2',
-    title: 'Deluxe King Bedroom',
-    category: 'Rooms',
-    image: 'https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1200&q=80',
-    description: 'Clean, serene interior designed for supreme relaxation.'
-  },
-  {
-    id: 'g-dining-1',
-    title: 'Silk Fine Dining Restaurant',
-    category: 'Dining',
-    image: 'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80',
-    description: 'Warm atmosphere for breakfast, lunch, and memorable dinners.'
-  },
-  {
-    id: 'g-dining-2',
-    title: 'Fresh Gourmet Breakfast Spread',
-    category: 'Dining',
-    image: 'https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?auto=format&fit=crop&w=1200&q=80',
-    description: 'Rich assortment of continental pastries, omelettes, fruits, and teas.'
-  },
-  {
-    id: 'g-amenities-1',
-    title: 'Luxury En-Suite Bathroom',
-    category: 'Amenities',
-    image: 'https://images.unsplash.com/photo-1584132967334-10e028bd69f7?auto=format&fit=crop&w=1200&q=80',
-    description: 'Sparkling marble bathroom with hot rainfall shower setup.'
+    description: 'Spacious marble lobby with plush seating for arriving guests.',
+    tags: ['Lobby', 'Reception', 'Marble Floor']
   },
   {
     id: 'g-lobby-2',
-    title: 'Executive Lounge & Reception',
+    title: 'Executive Lounge & Seating Area',
     category: 'Lobby',
     image: 'https://images.unsplash.com/photo-1561501813-97bee73c3842?auto=format&fit=crop&w=1200&q=80',
-    description: 'Comfortable waiting area for business meetings and coffee.'
+    description: 'Comfortable waiting area for business meetings and coffee.',
+    tags: ['Lobby', 'Lounge', 'Seating']
+  },
+  {
+    id: 'g-lobby-3',
+    title: 'Concierge Desk & Guest Helpdesk',
+    category: 'Lobby',
+    image: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80',
+    description: '24/7 Concierge desk ready to assist with reservations and transportation.',
+    tags: ['Lobby', 'Concierge', 'Front Desk']
+  },
+  {
+    id: 'g-lobby-4',
+    title: 'Main Elevator Hall & Corridor',
+    category: 'Lobby',
+    image: 'https://images.unsplash.com/photo-1590381105924-c72589b9ef3f?auto=format&fit=crop&w=1200&q=80',
+    description: 'Elegant marble foyer leading to elevator bank and guest rooms.',
+    tags: ['Lobby', 'Corridor', 'Elevator']
+  },
+
+  // --- ROOMS & SUITES PHOTOS ---
+  {
+    id: 'g-room-deluxe-king-1',
+    title: 'Deluxe King Bedroom View',
+    category: 'Rooms',
+    image: 'https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1200&q=80',
+    description: 'Clean, serene interior with plush King bed and ambient bedside reading lamps.',
+    roomId: 'silk-deluxe-king',
+    tags: ['Deluxe King', 'King Bed', 'Rooms']
+  },
+  {
+    id: 'g-room-deluxe-king-2',
+    title: 'Deluxe King Bedroom Desk & Lighting',
+    category: 'Rooms',
+    image: 'https://images.unsplash.com/photo-1616046229478-9901c5536a45?auto=format&fit=crop&w=1200&q=80',
+    description: 'Ergonomic study desk with fast optical Wi-Fi and smart temperature controls.',
+    roomId: 'silk-deluxe-king',
+    tags: ['Deluxe King', 'Work Desk']
+  },
+  {
+    id: 'g-room-exec-1',
+    title: 'Executive Silk Suite Master Bed',
+    category: 'Rooms',
+    image: 'https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=1200&q=80',
+    description: 'Master bedroom with premium silk linens and mood lighting.',
+    roomId: 'silk-executive-suite',
+    tags: ['Executive Suite', 'Super King Bed']
+  },
+  {
+    id: 'g-room-exec-2',
+    title: 'Executive Suite Private Seating Parlor',
+    category: 'Rooms',
+    image: 'https://images.unsplash.com/photo-1631049307264-da0ec9d70304?auto=format&fit=crop&w=1200&q=80',
+    description: 'Separate living room lounge in the Executive Suite with sofa seating.',
+    roomId: 'silk-executive-suite',
+    tags: ['Executive Suite', 'Lounge', 'Parlor']
+  },
+  {
+    id: 'g-room-royal-1',
+    title: 'Royal Silk Presidential Suite Master Suite',
+    category: 'Rooms',
+    image: 'https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80',
+    description: 'The Royal Silk Suite master bedroom featuring custom woodwork and emperor bed.',
+    roomId: 'silk-royal-presidential',
+    tags: ['Royal Suite', 'Emperor Bed', 'Presidential']
+  },
+  {
+    id: 'g-room-twin-1',
+    title: 'Superior Twin Comfort Room',
+    category: 'Rooms',
+    image: 'https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&w=1200&q=80',
+    description: 'Two orthopedic single twin beds ideal for corporate partners.',
+    roomId: 'silk-deluxe-twin',
+    tags: ['Twin Room', 'Two Beds']
+  },
+  {
+    id: 'g-room-family-1',
+    title: 'Grand Family Suite Bedroom Setup',
+    category: 'Rooms',
+    image: 'https://images.unsplash.com/photo-1591088398332-8a7791972843?auto=format&fit=crop&w=1200&q=80',
+    description: 'Spacious connecting room layout crafted for family comfort.',
+    roomId: 'silk-family-suite',
+    tags: ['Family Suite', 'Connecting Room']
+  },
+  {
+    id: 'g-room-interior-detail',
+    title: 'Soft Linen & Bedside Hospitality Tray',
+    category: 'Rooms',
+    image: 'https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&w=1200&q=80',
+    description: 'In-room tea & coffee setup with fresh bottled water and daily fruit basket.',
+    tags: ['Room Amenities', 'Tea Station']
+  },
+
+  // --- DINING & RESTAURANT PHOTOS ---
+  {
+    id: 'g-dining-1',
+    title: 'Silk Fine Dining Restaurant Area',
+    category: 'Dining',
+    image: 'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80',
+    description: 'Warm atmosphere for breakfast, lunch, and memorable family dinners.',
+    tags: ['Dining', 'Restaurant', 'Seating']
+  },
+  {
+    id: 'g-dining-2',
+    title: 'Fresh Gourmet Breakfast Buffet',
+    category: 'Dining',
+    image: 'https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?auto=format&fit=crop&w=1200&q=80',
+    description: 'Rich assortment of continental pastries, egg stations, fruits, and traditional tea.',
+    tags: ['Dining', 'Breakfast Buffet', 'Gourmet']
+  },
+  {
+    id: 'g-dining-3',
+    title: 'Artisanal Coffee & High Tea Station',
+    category: 'Dining',
+    image: 'https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=1200&q=80',
+    description: 'Freshly brewed espresso, green tea, and evening snacks served daily.',
+    tags: ['Dining', 'Coffee Bar', 'Tea']
+  },
+  {
+    id: 'g-dining-4',
+    title: 'Authentic Pakistani Grill & BBQ Dishes',
+    category: 'Dining',
+    image: 'https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1200&q=80',
+    description: 'Mouthwatering traditional kebabs, karahi, and fresh naan baked to order.',
+    tags: ['Dining', 'Pakistani Food', 'BBQ']
+  },
+  {
+    id: 'g-dining-5',
+    title: 'In-Room Breakfast Tray Service',
+    category: 'Dining',
+    image: 'https://images.unsplash.com/photo-1525351484163-7529414344d8?auto=format&fit=crop&w=1200&q=80',
+    description: 'Private 24/7 room service breakfast delivered straight to your suite.',
+    tags: ['Dining', 'Room Service', 'In-Room Breakfast']
+  },
+
+  // --- BATHROOMS & AMENITIES PHOTOS ---
+  {
+    id: 'g-bath-1',
+    title: 'Luxury En-Suite Bathroom & Rain Shower',
+    category: 'Amenities',
+    image: 'https://images.unsplash.com/photo-1584132967334-10e028bd69f7?auto=format&fit=crop&w=1200&q=80',
+    description: 'Sparkling marble bathroom with hot rainfall shower and premium toiletries.',
+    tags: ['Amenities', 'Bathroom', 'Rain Shower']
+  },
+  {
+    id: 'g-bath-2',
+    title: 'Deep Soaking Bathtub in Executive Suite',
+    category: 'Amenities',
+    image: 'https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1200&q=80',
+    description: 'Relaxing marble bathtub with fluffy plush towels and bath accessories.',
+    tags: ['Amenities', 'Bathtub', 'Executive Bath']
+  },
+  {
+    id: 'g-bath-3',
+    title: 'Silk Hotel Toiletries & Plush Bathrobes',
+    category: 'Amenities',
+    image: 'https://images.unsplash.com/photo-1563298723-dcfebaa392e3?auto=format&fit=crop&w=1200&q=80',
+    description: 'Complimentary high-end hygiene kit, slippers, and embroidered bathrobes.',
+    tags: ['Amenities', 'Toiletries', 'Bathrobe']
+  },
+  {
+    id: 'g-amenities-parking',
+    title: 'Guarded Valet Parking Entrance',
+    category: 'Amenities',
+    image: 'https://images.unsplash.com/photo-1506521781263-d8422e82f27a?auto=format&fit=crop&w=1200&q=80',
+    description: '24/7 CCTV monitored safe parking space on Susan Road, Madina Town.',
+    tags: ['Amenities', 'Parking', 'Valet']
   }
 ];
 

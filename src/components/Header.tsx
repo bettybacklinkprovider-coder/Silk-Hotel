@@ -32,6 +32,7 @@ export const Header: React.FC<HeaderProps> = ({
   const navItems: { id: PageRoute; label: string }[] = [
     { id: 'home', label: 'Home' },
     { id: 'rooms', label: 'Rooms & Suites' },
+    { id: 'gallery', label: 'Photo Gallery' },
     { id: 'services', label: 'Services' },
     { id: 'contact', label: 'Contact' },
   ];

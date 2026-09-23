@@ -1,4 +1,4 @@
-export type PageRoute = 'home' | 'rooms' | 'services' | 'contact';
+export type PageRoute = 'home' | 'rooms' | 'gallery' | 'services' | 'contact';
 
 export interface Room {
   id: string;
@@ -33,6 +33,8 @@ export interface GalleryItem {
   category: 'Rooms' | 'Dining' | 'Lobby' | 'Amenities' | 'Exterior';
   image: string;
   description: string;
+  roomId?: string;
+  tags?: string[];
 }
 
 export interface BookingDetails {

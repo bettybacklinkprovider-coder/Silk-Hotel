@@ -1,13 +1,14 @@
 import React, { useState } from 'react';
 import { ROOMS } from '../data/hotelData';
-import { Room } from '../types';
-import { Users, Wifi, Tv, Coffee, Shield, Sparkles, Calendar, Phone, Check, ChevronRight, SlidersHorizontal } from 'lucide-react';
+import { Room, GalleryItem } from '../types';
+import { Users, Wifi, Tv, Coffee, Shield, Sparkles, Calendar, Phone, Check, ChevronRight, SlidersHorizontal, Camera, Image as ImageIcon } from 'lucide-react';
 
 interface RoomsPageProps {
   onOpenBookingModal: (roomId?: string) => void;
+  onOpenGalleryItem?: (item: GalleryItem) => void;
 }
 
-export const RoomsPage: React.FC<RoomsPageProps> = ({ onOpenBookingModal }) => {
+export const RoomsPage: React.FC<RoomsPageProps> = ({ onOpenBookingModal, onOpenGalleryItem }) => {
   const [selectedCategory, setSelectedCategory] = useState<string>('All');
   const [activeRoomDetail, setActiveRoomDetail] = useState<Room | null>(null);
 
@@ -64,7 +65,21 @@ export const RoomsPage: React.FC<RoomsPageProps> = ({ onOpenBookingModal }) => {
             className="bg-slate-900 border border-slate-800 rounded-3xl overflow-hidden shadow-2xl hover:border-amber-500/40 transition-all duration-300 grid grid-cols-1 lg:grid-cols-12"
           >
             {/* Room Image Gallery Box */}
-            <div className="lg:col-span-5 relative group min-h-[300px] lg:min-h-full overflow-hidden">
+            <div
+              onClick={() => {
+                if (onOpenGalleryItem) {
+                  onOpenGalleryItem({
+                    id: `g-room-page-${room.id}`,
+                    title: room.name,
+                    category: 'Rooms',
+                    image: room.image,
+                    description: room.description,
+                    roomId: room.id
+                  });
+                }
+              }}
+              className="lg:col-span-5 relative group min-h-[300px] lg:min-h-full overflow-hidden cursor-pointer"
+            >
               <img
                 src={room.image}
                 alt={room.name}
@@ -73,6 +88,10 @@ export const RoomsPage: React.FC<RoomsPageProps> = ({ onOpenBookingModal }) => {
               <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent" />
               <div className="absolute top-4 left-4 bg-slate-950/90 text-amber-400 font-bold px-3 py-1 rounded-md text-xs border border-amber-500/30">
                 {room.category} Category
+              </div>
+              <div className="absolute top-4 right-4 bg-amber-500/90 hover:bg-amber-400 text-slate-950 font-bold px-3 py-1 rounded-md text-xs shadow flex items-center gap-1">
+                <Camera className="w-3.5 h-3.5" />
+                <span>{room.gallery.length} Photos</span>
               </div>
               <div className="absolute bottom-4 left-4 right-4 flex items-center justify-between text-xs text-white">
                 <span className="bg-slate-950/80 px-2.5 py-1 rounded-md">{room.sizeSqFt} sq ft space</span>

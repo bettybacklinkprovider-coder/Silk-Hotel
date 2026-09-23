@@ -112,6 +112,15 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate, onOpenBookingModal }
               </li>
               <li>
                 <button
+                  onClick={() => handleNavClick('gallery')}
+                  className="hover:text-amber-400 transition-colors flex items-center gap-2 text-slate-300"
+                >
+                  <ArrowUpRight className="w-3.5 h-3.5 text-amber-500" />
+                  <span>Photo Gallery</span>
+                </button>
+              </li>
+              <li>
+                <button
                   onClick={() => handleNavClick('services')}
                   className="hover:text-amber-400 transition-colors flex items-center gap-2 text-slate-300"
                 >

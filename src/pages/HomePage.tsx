@@ -461,7 +461,7 @@ export const HomePage: React.FC<HomePageProps> = ({
 
           {/* Gallery Grid */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-            {filteredGallery.map((item) => (
+            {filteredGallery.slice(0, 8).map((item) => (
               <div
                 key={item.id}
                 onClick={() => onOpenGalleryItem(item)}
@@ -484,6 +484,16 @@ export const HomePage: React.FC<HomePageProps> = ({
                 </div>
               </div>
             ))}
+          </div>
+
+          <div className="text-center pt-6">
+            <button
+              onClick={() => onNavigate('gallery')}
+              className="inline-flex items-center gap-2 bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-slate-950 font-bold px-8 py-3.5 rounded-xl text-sm shadow-xl transition-all"
+            >
+              <span>Explore Full Photo Gallery Page ({GALLERY_ITEMS.length} Photos)</span>
+              <ArrowRight className="w-4 h-4" />
+            </button>
           </div>
         </div>
       </section>

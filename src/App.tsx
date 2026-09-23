@@ -4,6 +4,7 @@ import { Header } from './components/Header';
 import { Footer } from './components/Footer';
 import { HomePage } from './pages/HomePage';
 import { RoomsPage } from './pages/RoomsPage';
+import { GalleryPage } from './pages/GalleryPage';
 import { ServicesPage } from './pages/ServicesPage';
 import { ContactPage } from './pages/ContactPage';
 import { BookingModal } from './components/BookingModal';
@@ -18,11 +19,11 @@ export default function App() {
   const [selectedGalleryItem, setSelectedGalleryItem] = useState<GalleryItem | null>(null);
   const [toast, setToast] = useState<ToastMessage | null>(null);
 
-  // Sync hash routing if user opens with #rooms, #services, #contact
+  // Sync hash routing if user opens with #rooms, #gallery, #services, #contact
   useEffect(() => {
     const handleHashChange = () => {
       const hash = window.location.hash.replace('#', '') as PageRoute;
-      if (['home', 'rooms', 'services', 'contact'].includes(hash)) {
+      if (['home', 'rooms', 'gallery', 'services', 'contact'].includes(hash)) {
         setActiveRoute(hash);
       }
     };
@@ -61,7 +62,7 @@ export default function App() {
         onOpenBookingModal={handleOpenBookingModal}
       />
 
-      {/* Main Page Area - 4 Separate Routes */}
+      {/* Main Page Area - 5 Separate Routes */}
       <main className="flex-1 w-full">
         {activeRoute === 'home' && (
           <HomePage
@@ -72,7 +73,18 @@ export default function App() {
         )}
 
         {activeRoute === 'rooms' && (
-          <RoomsPage onOpenBookingModal={handleOpenBookingModal} />
+          <RoomsPage
+            onOpenBookingModal={handleOpenBookingModal}
+            onOpenGalleryItem={(item) => setSelectedGalleryItem(item)}
+          />
+        )}
+
+        {activeRoute === 'gallery' && (
+          <GalleryPage
+            onNavigate={navigateTo}
+            onOpenBookingModal={handleOpenBookingModal}
+            onOpenGalleryItem={(item) => setSelectedGalleryItem(item)}
+          />
         )}
 
         {activeRoute === 'services' && (
@@ -111,6 +123,7 @@ export default function App() {
         items={GALLERY_ITEMS}
         onClose={() => setSelectedGalleryItem(null)}
         onSelect={(item) => setSelectedGalleryItem(item)}
+        onOpenBookingModal={handleOpenBookingModal}
       />
 
       {/* Toast Notification */}
