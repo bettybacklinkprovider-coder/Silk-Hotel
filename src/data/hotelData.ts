@@ -9,8 +9,9 @@ export const HOTEL_INFO = {
   address: 'C498+F55, Susan Road, Madina Town, Faisalabad, 38000, Pakistan',
   city: 'Faisalabad',
   area: 'Madina Town, Susan Road',
-  mainImage: 'https://res.cloudinary.com/k7og2ybq/image/upload/v1790158997/unnamed_7.jpg',
+  mainImage: 'https://res.cloudinary.com/k7og2ybq/image/upload/v1790159225/unnamed_8.jpg',
   heroImages: [
+    'https://res.cloudinary.com/k7og2ybq/image/upload/v1790159225/unnamed_8.jpg',
     'https://res.cloudinary.com/k7og2ybq/image/upload/v1790158997/unnamed_7.jpg',
     'https://res.cloudinary.com/k7og2ybq/image/upload/v1790158779/unnamed_6.jpg',
     'https://res.cloudinary.com/k7og2ybq/image/upload/v1790158492/unnamed_5.jpg',
@@ -299,6 +300,14 @@ export const SERVICES: HotelService[] = [
 
 export const GALLERY_ITEMS: GalleryItem[] = [
   // --- EXTERIOR PHOTOS ---
+  {
+    id: 'g-ext-view-8',
+    title: 'Silk Hotel Grand Entrance & Facade',
+    category: 'Exterior',
+    image: 'https://res.cloudinary.com/k7og2ybq/image/upload/v1790159225/unnamed_8.jpg',
+    description: 'Silk Hotel premier exterior frontage and grand entry on Susan Road, Madina Town, Faisalabad.',
+    tags: ['Exterior', 'Silk Hotel', 'Susan Road', 'Facade', 'Main Entrance', 'Iconic', 'Primary']
+  },
   {
     id: 'g-ext-view-7',
     title: 'Silk Hotel Main Exterior Frontage',
