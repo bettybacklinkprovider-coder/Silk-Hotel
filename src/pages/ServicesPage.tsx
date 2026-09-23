@@ -72,9 +72,19 @@ export const ServicesPage: React.FC<ServicesPageProps> = ({
         {SERVICES.map((service) => (
           <div
             key={service.id}
-            className="bg-slate-900 border border-slate-800 rounded-3xl p-8 hover:border-amber-500/40 transition-all duration-300 shadow-xl flex flex-col justify-between group space-y-6"
+            className="bg-slate-900 border border-slate-800 rounded-3xl overflow-hidden hover:border-amber-500/40 transition-all duration-300 shadow-xl flex flex-col justify-between group space-y-6"
           >
-            <div className="space-y-4">
+            {service.image && (
+              <div className="h-44 w-full overflow-hidden relative border-b border-slate-800">
+                <img
+                  src={service.image}
+                  alt={service.title}
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/30 to-transparent" />
+              </div>
+            )}
+            <div className={`space-y-4 ${service.image ? 'p-8 pt-2' : 'p-8'}`}>
               <div className="flex items-center justify-between">
                 <div className="w-14 h-14 rounded-2xl bg-amber-500/10 border border-amber-500/30 flex items-center justify-center text-amber-400 group-hover:scale-110 transition-transform">
                   {getIcon(service.iconName)}

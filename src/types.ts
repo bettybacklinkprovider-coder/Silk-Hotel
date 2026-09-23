@@ -25,6 +25,7 @@ export interface HotelService {
   hours: string;
   badge?: string;
   details: string[];
+  image?: string;
 }
 
 export interface GalleryItem {

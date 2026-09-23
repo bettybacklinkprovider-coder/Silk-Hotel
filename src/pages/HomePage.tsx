@@ -354,34 +354,64 @@ export const HomePage: React.FC<HomePageProps> = ({
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            <div className="p-6 bg-slate-950 rounded-2xl border border-slate-800 hover:border-amber-500/40 transition-colors space-y-3">
-              <div className="w-12 h-12 rounded-xl bg-amber-500/10 border border-amber-500/30 flex items-center justify-center text-amber-400">
-                <Wifi className="w-6 h-6" />
+            <div className="bg-slate-950 rounded-2xl border border-slate-800 hover:border-amber-500/40 transition-all overflow-hidden group flex flex-col justify-between">
+              <div className="h-36 overflow-hidden relative border-b border-slate-800/80">
+                <img
+                  src="https://i.pinimg.com/736x/3d/3b/e3/3d3be3361990307189a8a9d7b626341b.jpg"
+                  alt="High-Speed Fiber Wi-Fi"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/40 to-transparent" />
+                <div className="absolute top-3 left-3 w-10 h-10 rounded-xl bg-slate-950/80 border border-amber-500/40 backdrop-blur-md flex items-center justify-center text-amber-400">
+                  <Wifi className="w-5 h-5" />
+                </div>
               </div>
-              <h3 className="font-serif text-lg font-bold text-white">High-Speed Fiber Wi-Fi</h3>
-              <p className="text-xs text-slate-400 leading-relaxed">
-                Enjoy complimentary ultra-fast optical Wi-Fi connection in all rooms, lobby areas, and dining space.
-              </p>
+              <div className="p-6 space-y-2">
+                <h3 className="font-serif text-lg font-bold text-white group-hover:text-amber-300 transition-colors">High-Speed Fiber Wi-Fi</h3>
+                <p className="text-xs text-slate-400 leading-relaxed">
+                  Enjoy complimentary ultra-fast optical Wi-Fi connection in all rooms, lobby areas, and dining space.
+                </p>
+              </div>
             </div>
 
-            <div className="p-6 bg-slate-950 rounded-2xl border border-slate-800 hover:border-amber-500/40 transition-colors space-y-3">
-              <div className="w-12 h-12 rounded-xl bg-amber-500/10 border border-amber-500/30 flex items-center justify-center text-amber-400">
-                <UtensilsCrossed className="w-6 h-6" />
+            <div className="bg-slate-950 rounded-2xl border border-slate-800 hover:border-amber-500/40 transition-all overflow-hidden group flex flex-col justify-between">
+              <div className="h-36 overflow-hidden relative border-b border-slate-800/80">
+                <img
+                  src="https://i.pinimg.com/1200x/c5/a9/60/c5a960597530193de019cd69afd6b0be.jpg"
+                  alt="24/7 Room Service"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/40 to-transparent" />
+                <div className="absolute top-3 left-3 w-10 h-10 rounded-xl bg-slate-950/80 border border-amber-500/40 backdrop-blur-md flex items-center justify-center text-amber-400">
+                  <UtensilsCrossed className="w-5 h-5" />
+                </div>
               </div>
-              <h3 className="font-serif text-lg font-bold text-white">24/7 Room Service</h3>
-              <p className="text-xs text-slate-400 leading-relaxed">
-                Freshly prepared local Faisalabadi, Pakistani, and continental dishes served right to your room anytime.
-              </p>
+              <div className="p-6 space-y-2">
+                <h3 className="font-serif text-lg font-bold text-white group-hover:text-amber-300 transition-colors">24/7 Room Service</h3>
+                <p className="text-xs text-slate-400 leading-relaxed">
+                  Freshly prepared local Faisalabadi, Pakistani, and continental dishes served right to your room anytime.
+                </p>
+              </div>
             </div>
 
-            <div className="p-6 bg-slate-950 rounded-2xl border border-slate-800 hover:border-amber-500/40 transition-colors space-y-3">
-              <div className="w-12 h-12 rounded-xl bg-amber-500/10 border border-amber-500/30 flex items-center justify-center text-amber-400">
-                <Sparkles className="w-6 h-6" />
+            <div className="bg-slate-950 rounded-2xl border border-slate-800 hover:border-amber-500/40 transition-all overflow-hidden group flex flex-col justify-between">
+              <div className="h-36 overflow-hidden relative border-b border-slate-800/80">
+                <img
+                  src="https://i.pinimg.com/736x/ec/0f/52/ec0f52fe9deef52fd91f3d309df2ed2f.jpg"
+                  alt="Daily Housekeeping"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/40 to-transparent" />
+                <div className="absolute top-3 left-3 w-10 h-10 rounded-xl bg-slate-950/80 border border-amber-500/40 backdrop-blur-md flex items-center justify-center text-amber-400">
+                  <Sparkles className="w-5 h-5" />
+                </div>
               </div>
-              <h3 className="font-serif text-lg font-bold text-white">Daily Housekeeping</h3>
-              <p className="text-xs text-slate-400 leading-relaxed">
-                Thorough room sanitization, daily fresh linen replacement, and prompt dry cleaning options.
-              </p>
+              <div className="p-6 space-y-2">
+                <h3 className="font-serif text-lg font-bold text-white group-hover:text-amber-300 transition-colors">Daily Housekeeping</h3>
+                <p className="text-xs text-slate-400 leading-relaxed">
+                  Thorough room sanitization, daily fresh linen replacement, and prompt dry cleaning options.
+                </p>
+              </div>
             </div>
 
             <div className="p-6 bg-slate-950 rounded-2xl border border-slate-800 hover:border-amber-500/40 transition-colors space-y-3">

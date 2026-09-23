@@ -191,6 +191,7 @@ export const SERVICES: HotelService[] = [
     iconName: 'UtensilsCrossed',
     hours: '24 Hours Daily',
     badge: 'Popular',
+    image: 'https://i.pinimg.com/1200x/c5/a9/60/c5a960597530193de019cd69afd6b0be.jpg',
     details: [
       'Freshly prepared hot Pakistani, Asian & Continental dishes',
       'Express breakfast tray service',
@@ -205,6 +206,7 @@ export const SERVICES: HotelService[] = [
     iconName: 'Sparkles',
     hours: '08:00 AM - 10:00 PM',
     badge: 'Hygiene Assured',
+    image: 'https://i.pinimg.com/736x/ec/0f/52/ec0f52fe9deef52fd91f3d309df2ed2f.jpg',
     details: [
       'Daily thorough deep cleaning & linen changes',
       'Express same-day laundry & pressing service',
@@ -219,6 +221,7 @@ export const SERVICES: HotelService[] = [
     iconName: 'Wifi',
     hours: 'Always Active',
     badge: 'Free Ultra-Fast',
+    image: 'https://i.pinimg.com/736x/3d/3b/e3/3d3be3361990307189a8a9d7b626341b.jpg',
     details: [
       'Dedicated high bandwidth optical connection',
       'Unlimited devices per room',
@@ -555,6 +558,30 @@ export const GALLERY_ITEMS: GalleryItem[] = [
   },
 
   // --- BATHROOMS & AMENITIES PHOTOS ---
+  {
+    id: 'g-room-service-247',
+    title: '24/7 Gourmet In-Room Dining Service',
+    category: 'Dining',
+    image: 'https://i.pinimg.com/1200x/c5/a9/60/c5a960597530193de019cd69afd6b0be.jpg',
+    description: 'Freshly prepared local Faisalabadi, Pakistani, and continental dishes served directly to your room.',
+    tags: ['Dining', 'Room Service', 'In-Room Dining', '24/7 Service']
+  },
+  {
+    id: 'g-housekeeping-daily',
+    title: 'Daily Premium Housekeeping & Sanitization',
+    category: 'Amenities',
+    image: 'https://i.pinimg.com/736x/ec/0f/52/ec0f52fe9deef52fd91f3d309df2ed2f.jpg',
+    description: 'Thorough room sanitization, daily fresh linen replacement, and prompt dry cleaning options.',
+    tags: ['Amenities', 'Housekeeping', 'Laundry', 'Sanitization', 'Hygiene']
+  },
+  {
+    id: 'g-wifi-fiber-1',
+    title: 'High-Speed Optical Fiber Wi-Fi Network',
+    category: 'Amenities',
+    image: 'https://i.pinimg.com/736x/3d/3b/e3/3d3be3361990307189a8a9d7b626341b.jpg',
+    description: 'Complimentary high-speed optical Wi-Fi coverage across all guest rooms, lobby, and dining areas.',
+    tags: ['Amenities', 'Wi-Fi', 'High-Speed Internet', 'Fiber Wi-Fi']
+  },
   {
     id: 'g-bath-1',
     title: 'Luxury En-Suite Bathroom & Rain Shower',
